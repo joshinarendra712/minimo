@@ -1,0 +1,158 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	line-height:1.5;
+	font-family: 'Roboto', sans-serif;
+}
+/*================ header section css start=========================== */
+.header{
+	padding:70px 0 100px;
+	width:100%;
+}
+.navbar li{
+	display:inline-block;
+	list-style:none;
+	margin-right:30px;
+}
+.navbar li a{
+	text-decoration:none;
+	padding-left:30px;
+	font-size:14px;
+	color:#626262;
+	text-transform:uppercase;
+	
+}
+.navbar li:last-child{
+	margin-right:0;
+}
+.navbar li:last-child a{
+	padding-right:0;
+}
+.heroimg{
+	height:100vh;
+	background-image:url(../images/heroimg.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/* post section css start */
+.post{
+	padding:0 0 120px;
+}
+.heading-primary{
+	font-size:14px;
+	color:#b4ad9e;
+	margin-bottom:30px;
+	text-transform:uppercase;
+	font-weight:lighter;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Playfair Display', serif;
+}
+.heading-secondary{
+	font-size:30px;
+	color:#626262;
+	margin-bottom:40px;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Playfair Display', serif;
+	width:120%;
+}
+.para{
+	font-size:14px;
+	color:#626262;
+	margin-bottom:30px;
+}
+.heading-last{
+	font-size:14px;
+	color:#b4ad9e;
+	font-weight:lighter;
+	margin-bottom:140px;
+	text-transform:uppercase;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Playfair Display', serif;
+}
+.heroimg-2{
+	background-image:url(../images/image.jpg);
+}
+.heroimg-3{
+	background-image:url(../images/image-2.jpg);
+}
+.heroimg-4{
+	background-image:url(../images/image-3.jpg);
+}
+.heroimg-5{
+	background-image:url(../images/image-4.jpg);
+}
+/* ============================signup section css start============================= */
+.signup{
+	background-color:#f0f0f0;
+	padding:70px 0;
+}
+.headingsignup{
+	font-size:30px;
+	color:#333333;
+	margin-bottom:85px;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Playfair Display', serif;
+}
+.formgroup{
+	height:40px;
+	position:relative;
+	overflow:hidden;
+}
+.formgroup .email{
+	width:100%;
+	display:inline-block;
+	height:100%;
+	outline:none;
+	border:none;
+	background-color:transparent;
+	text-transform:capitalize;
+	border-bottom:1px solid;
+	padding:10px;
+}
+.submitbtn{
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:black;
+	transform: rotate(45deg);
+}
+.newpost{
+	padding:100px 0 70px;
+}
+.heroimg-6{
+	background-image:url(../images/image-5.jpg);
+}
+.btn{
+	padding:20px 35px;
+	color:#626262;
+	background-color:#fff;
+	font-size:20px;
+	border:1px solid #626262;
+	cursor:pointer;
+	transition:all 0.5s ease-in-out;
+}
+.btn:hover,.btn:active,.btn:focus{
+	background-color:#626262;
+	color:#fff;
+}
+/* ==========================footer section css start================================== */
+.footer{
+	background-color:#f0f0f0;
+	padding:40px 0;
+	
+}
+.footerlinks li{
+	list-style:none;
+	display:inline-block;
+	margin-right:15px;
+}
+.footerlinks li,.footerlinks li a{
+	font-size:14px;
+	color:#000000;
+	text-transform:capitalize;
+}
+.footerlinks li a i{
+	color:#616161;
+}
